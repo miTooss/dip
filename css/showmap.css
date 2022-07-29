@@ -1,0 +1,105 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+#dis{
+    position: absolute;
+    z-index: 1000;
+    left: 50vw;
+    width: max-content;
+    background-color: white;
+    border-radius: 0 0 50% 50%;
+    border: 1px solid black;
+    padding: 1%;
+}
+#dis:hover{
+    background-color: antiquewhite;
+}
+#inf {
+    position: absolute;
+    z-index: 1000;
+    background-color: white;
+    border-radius: 4px;
+    width: 30vw;
+    min-height: 30vh;
+    height: auto;
+    margin-left: 35vw;
+    margin-top: 35vh;
+    text-align: center;
+    padding-top: 3vh;
+}
+.map {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    padding-top: 5%;
+    border-bottom: 1px solid black;
+
+}
+.map:hover{
+    padding-top: 7%;
+    background-color: antiquewhite;
+}
+#map {
+    width: 100vw;
+    height: 100vh;
+}
+#menu{
+    position: absolute;
+    z-index: 1000;
+    transform: rotate(-90deg);
+    top: 50vh;
+
+    border-radius: 50% 50% 0 0;
+    right: -1vw;
+    background-color:lightgray;
+}
+#menu:hover{
+    background-color: bisque;
+}
+#main {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 0fr;
+}
+#mainmenu{
+    background-color: white;
+    height: 100vh;
+    display: none;
+    position: absolute;
+    width: 0;
+    right: 0;
+}
+#places{
+    display: flex;
+    justify-content: space-between;
+    z-index: 2000;
+}
+
+#mainmenu2{
+    position: absolute;
+    z-index: 1500;
+    background-color: white;
+    height: 100vh;
+    right: 0;
+    border-left: 1px solid black;
+}
+img {
+    height: 5vh;
+    width: 5vw;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.listof{
+    padding-top: 5%;
+    border-bottom: 1px solid black;
+}
+.listof:hover{
+    padding-top: 7%;
+    background-color: antiquewhite;
+}

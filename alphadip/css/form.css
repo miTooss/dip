@@ -1,0 +1,73 @@
+body{
+    width: 95vw;
+    margin: 0;
+}
+
+form{
+    background-color: blanchedalmond;
+    width: 50vw;
+    margin-top: 5vh;
+    margin-left: 25vw;
+    border-radius: 10px;
+    margin-bottom: 5vh;
+}
+input{
+    margin-left: 5vw;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    height: 5vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 40vw;
+}
+legend{
+    text-align: center;
+    padding-top: 0.5vw;
+    font-size: 150%;
+}
+textarea{
+    margin-left: 5vw;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    height: 5vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 40vw;
+}
+
+label{
+    margin-left: 15vw;
+}
+#map {
+    padding-top: 1.5vh;
+    margin: auto;
+    width: 40vw;
+}
+
+#submit:hover{
+    background-color: navajowhite;
+
+}
+@media (max-width: 768px){
+    body{
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+    form{
+        width: 95vw;
+        margin: auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    input{
+        width: 85vw;
+    }
+    #map{
+        width: 80vw;
+    }
+    
+}
